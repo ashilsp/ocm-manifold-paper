@@ -5,7 +5,9 @@ This repository contains the numerical implementations, verification scripts, an
 The codebase provides first-principles mathematical modeling for non-singular black hole mechanics, $\kappa$-flux manifold stabilization, cosmological vacuum density integration, and large-scale structure predictions.
 
 
+
 ## Repository Architecture
+
 
 .
 ├── src/         # Core mathematical models and physical equations
@@ -14,6 +16,7 @@ The codebase provides first-principles mathematical modeling for non-singular bl
 ├── .gitignore   # Standard Python environment exclusions
 ├── LICENSE      # Open-source license
 └── README.md    # Repository overview and documentation
+
 
 
 
