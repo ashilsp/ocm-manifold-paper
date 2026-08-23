@@ -8,8 +8,6 @@ The codebase provides first-principles mathematical modeling for non-singular bl
 
 ## Repository Architecture
 
-```text
-.
 ├── src/         # Core mathematical models and physical equations
 ├── scripts/     # Standalone verification scripts and analytical runs
 ├── tests/       # Unit test suite verifying physical invariants and limits
@@ -17,6 +15,9 @@ The codebase provides first-principles mathematical modeling for non-singular bl
 ├── LICENSE      # Open-source license
 └── README.md    # Repository overview and documentation
 
+# Save this block and append it to your README.md
+
+block_1 = """
 ## Core Modules & Supplementary Coverage
 
 ### Main Theoretical Framework (`src/`, `scripts/`, `tests/`)
@@ -34,7 +35,8 @@ The codebase provides first-principles mathematical modeling for non-singular bl
 * **`supp_s5`**: Vacuum Energy Dilution & Resolution of the $10^{120}$ Vacuum Catastrophe.
 * **`supp_s6`**: Geometric Resonance, Bessel Wave Modes, and Mega-Structure Phase-Locking.
 * **`supp_s7`**: Logarithmic Scaling Law ($\zeta_{\text{OCM}}$) & HCB Great Wall Scale Prediction ($\approx 10.4$ Gly).
----
+"""
+
 
 ## Quick Start & Usage
 
@@ -45,7 +47,6 @@ The codebase provides first-principles mathematical modeling for non-singular bl
 Install dependencies:
 ```bash
 pip install numpy scipy
-
 # Run Main Verification Example
 python scripts/verify_metric_regularization.py
 
@@ -58,9 +59,5 @@ python scripts/supp_s7_verify_logarithmic_scaling.py
 python -m unittest discover -s tests -p "test_*.py"
 python -m unittest discover -s tests -p "supp_s*_test_*.py"
 
----
 
-## Citation & Contact
-
-If you use or reference this codebase in your research, please cite the primary manuscript and accompanying Supplementary Information.
 
