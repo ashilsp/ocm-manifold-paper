@@ -44,9 +44,9 @@ block_1 = """
 * Python 3.10+
 * `numpy`, `scipy`
 
-Install dependencies:
 ```bash
 pip install numpy scipy
+
 # Run Main Verification Example
 python scripts/verify_metric_regularization.py
 
@@ -55,9 +55,14 @@ python scripts/supp_s5_verify_vacuum_dilution.py
 
 # Run Supplementary Section S7 (HCB Great Wall Scale Prediction)
 python scripts/supp_s7_verify_logarithmic_scaling.py
+python -m unittest discover -s tests -p "test_*.py"
+python -m unittest discover -s tests -p "supp_s*_test_*.py"
 
 python -m unittest discover -s tests -p "test_*.py"
 python -m unittest discover -s tests -p "supp_s*_test_*.py"
+
+
+
 
 
 
