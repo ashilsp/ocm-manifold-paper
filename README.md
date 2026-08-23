@@ -7,12 +7,14 @@ The codebase provides first-principles mathematical modeling for non-singular bl
 
 ## Repository Architecture
 
+.
 ├── src/         # Core mathematical models and physical equations
 ├── scripts/     # Standalone verification scripts and analytical runs
 ├── tests/       # Unit test suite verifying physical invariants and limits
 ├── .gitignore   # Standard Python environment exclusions
 ├── LICENSE      # Open-source license
 └── README.md    # Repository overview and documentation
+
 
 
 ## Core Modules & Supplementary Coverage
