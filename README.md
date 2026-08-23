@@ -44,23 +44,19 @@ block_1 = """
 * Python 3.10+
 * `numpy`, `scipy`
 
-```bash
-pip install numpy scipy
-
-# Run Main Verification Example
-python scripts/verify_metric_regularization.py
-
-# Run Supplementary Section S5 (Vacuum Dilution Verification)
-python scripts/supp_s5_verify_vacuum_dilution.py
-
-# Run Supplementary Section S7 (HCB Great Wall Scale Prediction)
-python scripts/supp_s7_verify_logarithmic_scaling.py
-python -m unittest discover -s tests -p "test_*.py"
-python -m unittest discover -s tests -p "supp_s*_test_*.py"
-
-python -m unittest discover -s tests -p "test_*.py"
-python -m unittest discover -s tests -p "supp_s*_test_*.py"
-
+Install dependencies:
+• pip install numpy scipy
+1. Run Verification Scripts
+To execute individual verification routines and view mathematical outputs:
+• python scripts/verify_metric_regularization.py
+• python scripts/supp_s5_verify_vacuum_dilution.py
+• python scripts/supp_s7_verify_logarithmic_scaling.py
+2. Run Complete Unit Test Suite
+To verify all physical invariants, scale bounds, and mathematical identities across the entire codebase:
+• python -m unittest discover -s tests -p "test_*.py"
+• python -m unittest discover -s tests -p "supp_s*test*.py"
+Citation & Contact
+If you use or reference this codebase in your research, please cite the primary manuscript and accompanying Supplementary Information.
 
 
 
