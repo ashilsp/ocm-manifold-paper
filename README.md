@@ -15,9 +15,7 @@ The codebase provides first-principles mathematical modeling for non-singular bl
 ├── LICENSE      # Open-source license
 └── README.md    # Repository overview and documentation
 
-# Save this block and append it to your README.md
 
-block_1 = """
 ## Core Modules & Supplementary Coverage
 
 ### Main Theoretical Framework (`src/`, `scripts/`, `tests/`)
@@ -44,7 +42,7 @@ block_1 = """
 * Python 3.10+
 * `numpy`, `scipy`
 
-Install dependencies:
+###Install dependencies:
 • pip install numpy scipy
 1. Run Verification Scripts
 To execute individual verification routines and view mathematical outputs:
@@ -55,7 +53,8 @@ To execute individual verification routines and view mathematical outputs:
 To verify all physical invariants, scale bounds, and mathematical identities across the entire codebase:
 • python -m unittest discover -s tests -p "test_*.py"
 • python -m unittest discover -s tests -p "supp_s*test*.py"
-Citation & Contact
+
+###Citation & Contact
 If you use or reference this codebase in your research, please cite the primary manuscript and accompanying Supplementary Information.
 
 
